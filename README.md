@@ -9,3 +9,19 @@ A simple utility to clone MongoDB collections from a local database to a remote 
 
 ## Installation
 1. Clone the repository:
+   ```bash
+   git clone https://github.com/samueltesfayegari/MongoDB-cloner-TS.git
+   ```
+   
+2. Install dependencies:
+cd mongodb-cloner npm install
+
+3. Create a `.env` file in the root directory with the following:
+LOCAL_DB_URL=mongodb://localhost:27017/yourLocalDb
+DATABASE_URL=mongodb+srv://yourProductionDbUri
+
+## Usage
+Run the script:
+   ```
+node copyCollection.ts
+   ```
