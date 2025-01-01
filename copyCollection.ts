@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const localUri = process.env.LOCAL_DB_URL || 'mongodb://localhost:27017/MLS';
+const localUri = process.env.LOCAL_DB_URL || 'mongodb://localhost:27017/myApp';
 const productionUri = process.env.DATABASE_URL|| '';
 const collectionName = 'properties';
 
