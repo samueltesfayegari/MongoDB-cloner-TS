@@ -1,0 +1,16 @@
+{
+  "name": "mongodb-cloner",
+  "version": "1.0.0",
+  "description": "A MongoDB collection cloning utility.",
+  "main": "copyCollection.Ts",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["mongodb", "cloning", "utility"],
+  "author": "Samuel Tesfaye",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "mongoose": "^7.0.0"
+  }
+}
