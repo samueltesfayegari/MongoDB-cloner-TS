@@ -14,14 +14,12 @@ A simple utility to clone MongoDB collections from a local database to a remote 
    ```
    
 2. Install dependencies:
-
    ```bash
-cd MongoDB-cloner-TS 
+   cd MongoDB-cloner-TS 
    ```
 
-
    ```bash
-npm install
+   npm install
    ```
 
 4. Create a `.env` file in the root directory with the following:
@@ -31,5 +29,5 @@ DATABASE_URL=mongodb+srv://yourProductionDbUri
 ## Usage
 Run the script:
    ```bash
-node copyCollection.ts
+   node copyCollection.ts
    ```
