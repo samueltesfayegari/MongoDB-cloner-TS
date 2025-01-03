@@ -29,5 +29,5 @@ DATABASE_URL=mongodb+srv://yourProductionDbUri
 ## Usage
 Run the script:
    ```bash
-   node copyCollection.ts
+   node copy-collection.ts
    ```
