@@ -2,9 +2,9 @@
   "name": "mongodb-cloner",
   "version": "1.0.0",
   "description": "A MongoDB collection cloning utility.",
-  "main": "copy-collection.ts",
+  "main": "index.ts",
   "scripts": {
-    "start": "copy-collection.ts"
+    "start": "index.ts"
   },
   "keywords": ["mongodb", "cloning", "utility"],
   "author": "Samuel Tesfaye",
