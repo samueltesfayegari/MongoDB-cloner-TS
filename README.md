@@ -1,5 +1,5 @@
 # MongoDB-cloner-TS
-This repo just open to ideas, it's created for anyone who needs a mongoDB collection cloner.
+This's created for anyone who needs a mongoDB collection cloner. Create a PR anytime 😔
 
 A simple utility to clone MongoDB collections from a local database to a remote production database.
 
@@ -29,5 +29,5 @@ DATABASE_URL=mongodb+srv://yourProductionDbUri
 ## Usage
 Run the script:
    ```bash
-   node copy-collection.ts
+   node index.ts
    ```
